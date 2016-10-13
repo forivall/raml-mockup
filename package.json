@@ -1,5 +1,5 @@
 {
-  "name": "raml-mockup",
+  "name": "@forivall/raml-mockup",
   "version": "0.2.1",
   "description": "Express-based mocking service for RAML development",
   "bin": {
@@ -20,10 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gextech/raml-mockup"
+    "url": "https://github.com/forivall/raml-mockup"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "registry": "http://registry.npmjs.org",
+    "access": "public"
   },
   "license": "MIT",
   "dependencies": {
