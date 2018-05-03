@@ -6,6 +6,7 @@
     "raml-mockup": "bin/cli.js"
   },
   "main": "./lib/mock-server.js",
+  "types": "./lib/mock-server.d.ts",
   "scripts": {
     "dev": "jasmine-node spec --coffee --verbose --autoTest --watchFolders lib",
     "dev:lint": "eslint lib",
