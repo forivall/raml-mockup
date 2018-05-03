@@ -37,4 +37,5 @@ interface CreateAppOptions {
   refs?: any;
   statuses?: (number | string)[];
   log: (...message: string[]) => any;
+  ignoreMissing?: boolean
 }
